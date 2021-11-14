@@ -7,7 +7,7 @@ function generateQuestion() {
   return {
     question: `${first} + ${second}`,
     answer: (first + second).toString(),
-  }
+  };
 }
 
 gameEngine.run(generateQuestion);
