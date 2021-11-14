@@ -8,4 +8,5 @@ jobs:
         with:
           node-version: '14'
       - run: npm i
+      - run: npm install eslint-plugin-jsx-a11y@latest --save-dev
       - run: npm run lint
