@@ -9,7 +9,8 @@
     "brain-calculator": "node ./src/brainCalculator.js",
     "brain-even-number": "node ./src/brainEvenNumber.js",
     "brain-greatest-common-factor": "node ./src/brainGreatestCommonFactor.js",
-    "brain-prime-number": "node ./src/brainPrimeNumber.js"
+    "brain-prime-number": "node ./src/brainPrimeNumber.js",
+    "lint": "eslint --ext .js,.jsx ."
   },
   "author": "",
   "license": "ISC",
